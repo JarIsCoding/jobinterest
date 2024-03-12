@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.decor{
+  text-decoration: none;
+  color: black;
+}
+
+.navclass{
+  font-size: 20px;
+  opacity: rgba(0, 0, 0, .5);
+}
+
+.homecolor{
+  background-color: tan;
+}
+
+.black{
+  background-color: black;
+  color: black;
+  border-color: black;
+  opacity: 1;
+}
