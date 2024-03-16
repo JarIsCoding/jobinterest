@@ -4,64 +4,70 @@ import { Col, Container, Row } from 'react-bootstrap'
 const JobThreeComponent = () => {
   return (
     <Container fluid className='px-4'>
-            <Row className='py-5 gx-0'>
-                <Col lg={12} className='display-1'>
-                    <p>
-                        #3 FreeLancing
-                    </p>
-                </Col>
-            </Row>
-            <hr>
-            </hr>
-            <Row className='pt-3 gx-0'>
-                <Col lg={3}>
-                    <p className='fw-bold'>
-                        Why Freelancing?
-                    </p>
-                    <p className='pe-3'>
-                        Why I'd like to work as a freelancer is because of how much more flexible it can be.
-                        Being able to have the option to work as someone who can create websites for clients with my own personal designs, while also having the option to work full time also is sucb an appealing idea to me.
-                        <br></br>
-                        <br></br>
-                        I am a fan of being able to work alone, and figuring things out so I feel that the freelancer lifestyle would fit me just fine.
-                        Although I understand that there are no benifits such as pateronal leave or PTO, I feel that the freedom and solidarity is worth it, but if I did want benifits its only one extra job away.
-                    </p>
-                </Col>
-                <Col lg={3}>
-                    <p className='fw-bold'>
-                        Skills Needed?
-                    </p>
-                    <p className='pe-3'>
-                        I think another great feature of becoming a freelancer is the fact that there is no real requirement to become someone who can get clients.
-                        Freelancing is selling what current skills you have gained to clients and so yes currently right now I would be able to be a freelancer as long as my current skills can appeal to someone who is looking for website designs / code that I create.
-                        <br></br>
-                        <br></br>
-                        As for skills I would need to learn, it is optional if I would want to learn more about how to create better deigns, cleaner code, or a more enticing way to get clients to buy what I would sell.
-                    </p>
-                </Col>
-                <Col lg={3}>
-                    <p className='fw-bold'>
-                        Goals?
-                    </p>
-                    <p className='pe-3'>
-                        Goals I'd love to achieve/complete, is to learn about how to work professionally yet independantly, because if I start to work as a professional freelancer, I will need to change how I think and work for the best efficency.
-                        <br></br>
-                        <br></br>
-                        Another thing I would like to do is have a better understanding of code and create frontend projects with much better proficiency and skill, and a personal goal is to get a better grasp on how CSS animations work to make cool frontend graphics.
-                        Of course I can still just learn these on my own time but that is the beauty of working as a freelancer, having the ability to be free to learn anything anytime.
-                    </p>
-                </Col>
-                <Col lg={3}>
-                    <p className='fw-bold'>
-                        Do I have the skills?
-                    </p>
-                    <p className='pe-3'>
-                        Thinking about all the projects that we have created in class and considering that I feel skilled enough to create some nice websites I think that I might be good enough for a small job or a volunteer job.
-                        I know that there is still a lot to learn especially in the design department, but with time and commitment I can learn more than what I might imagine.
-                    </p>
-                </Col>
-            </Row>
-        </Container>
+      <Row className='py-5 gx-0'>
+        <Col lg={6} className='display-1'>
+          <p>
+            #3 Trinchero Family
+          </p>
+        </Col>
+        <Col lg={6} className='text-end ft pt-5'>
+          <a href='https://jobs.tfewines.com/' target='_blank' rel="noreferrer">
+            https://jobs.tfewines.com/
+          </a>
+        </Col>
+      </Row>
+      <hr>
+      </hr>
+      <Row className='pt-3 gx-0'>
+        <Col lg={3}>
+          <p className='fw-bold'>
+            Why Trinchero Family?
+          </p>
+          <p className='pe-3'>
+            I have picked Trinchero Family as one of my choices because of the real possibility of becoming a part of a actual workforce, also if I happen to be able to get the Trinchero internship it would be a great way to introduce myself into the workforce seeing that I have no current work expierence.
+            <br></br>
+            <br></br>
+            Also After checking on the Trinchero internship, the benifits are pretty great as it has medical, dental, vision, life insurance coverage, disability benefits, PTO, wellness programs and fertility and family building benefits!
+          </p>
+          <a href='https://jobs.tfewines.com/job/Lodi-Web-Development-Intern-CA-95242/1121301500/'>
+            https://jobs.tfewines.com/job/Lodi-Web-Development-Intern-CA-95242/1121301500/
+          </a>
+        </Col>
+        <Col lg={3}>
+          <p className='fw-bold'>
+            Skills Needed?
+          </p>
+          <p className='pe-3'>
+            All the skills I need are listed by the internship here
+            <ul>
+              <li>Experience with WordPress CMS, MySQL, SFTP Client, GitHub.</li>
+              <li>General Knowledge of web markup including HTML, CSS, PHP, JavaScript.</li>
+              <li>General Knowledge of WCAG 2.1 AA Compliance, Developer Tools, Google Lighthouse or similar.</li>
+              <li>General Knowledge of Office 365.</li>
+              <li>General Knowledge of Debugging Tools, Cross Browser testing.</li>
+              <li>Excellent verbal communication skills as well as interpersonal skills to effectively interact with various departments and outside vendors.</li>
+              <li>Excellent organizational skills and ability to effectively prioritize work.</li>
+            </ul>
+          </p>
+        </Col>
+        <Col lg={3}>
+          <p className='fw-bold'>
+            Goals?
+          </p>
+          <p className='pe-3'>
+            Goals that I want to achieve are to dip my feet into starting a job for the first time and set my name in stone as a web developer,as after looking at many posts and seeing people struggle to even begin getting a job as a web developer is a real struggle, so being able to have that first step will be very good for my future.
+          </p>
+        </Col>
+        <Col lg={3}>
+          <p className='fw-bold'>
+            Do I have the skills?
+          </p>
+          <p className='pe-3'>
+            Yes. Right now I will be able to work the internship with my current expierence. Which is super exicting and entices me to work really hard to learn SQL and CMS for the internship or just to learn it on a personal level. I would need to learn the skills on my own but with my decent understanding of code I would be able to have the skills to work the job.
+          </p>
+        </Col>
+      </Row>
+    </Container>
   )
 }
 

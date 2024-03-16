@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import line from '../assets/pngtree-decorative-line-separator-black-lines-png-image_5687462.png'
 
 const HomeComponent = () => {
     return (
@@ -14,7 +15,7 @@ const HomeComponent = () => {
             <hr>
             </hr>
             <Row className='pt-3 gx-0'>
-                <Col lg={3}>
+                <Col lg={3} className=''>
                     <p className='fw-bold'>
                         Why Freelancing?
                     </p>

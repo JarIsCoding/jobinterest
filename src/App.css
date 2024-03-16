@@ -48,7 +48,7 @@
 }
 
 .homecolor{
-  background-color: tan;
+  background-color: lavender;
 }
 
 .black{
@@ -56,4 +56,12 @@
   color: black;
   border-color: black;
   opacity: 1;
+}
+
+.ft{
+  font-size: 25px;
+}
+
+.textbox{
+  background-color: #d9d9d9d9;
 }

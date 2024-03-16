@@ -6,12 +6,12 @@ const NavbarComponent = () => {
     return (
         <Container fluid className='p-0 m-0 pt-3 navclass'>
             <Row className='px-4 gx-0'>
-                <Col lg={6} md={4} className='fw-bold'>
+                <Col lg={7} md={4} className='fw-bold'>
                     <p>
                         Jared's Job Interests
                     </p>
                 </Col>
-                <Col lg={6} md={8} className='text-end gx-0'>
+                <Col lg={5} md={8} className='text-end gx-0'>
                     <Row>
                         <Col>
                             <Link to={'/'} className='decor'>
