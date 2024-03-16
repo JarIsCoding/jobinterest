@@ -3,8 +3,8 @@ Jared Ly
 Jobs that interest You
 Created using browser router in the react framework
 
-Peer reviewer -
-Peer review -
+Peer reviewer - Brandon Nguyen 3/16/2024 @ 2:19PM
+Peer review - All the requirements for the assignment are fulfilled. The info for each page is organized pretty nicely. You used routing and provided hyperlinks, which is good. Great job!
 
 
 # Getting Started with Create React App
